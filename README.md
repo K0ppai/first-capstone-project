@@ -22,10 +22,10 @@
 
 
 
-# 📖 [portfolio_setup_mobile_1] <a name="about-project"></a>
+# 📖 [First_Capstone_Project] <a name="about-project"></a>
 
 
-**[portfolio_setup_mobile_1]** is a project to train our html and css skills for responsive websites.
+**[First_Capstone_Project]** is a project to implement what we've learned during the portal and present it to the world.
 
 ## 🛠 Built With <a name="built-with"></a>
 
