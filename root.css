@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --dark-orange: #ec5242;
+  --light-orange:#ec7a42 ;
+  --light-gray: #7A7A7A;
+  --dark-gray: #5F5F5F;
+  --header-bg: #3E3E3E;
+  --footer-bg: #2E2E2E;
+}
