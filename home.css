@@ -1,1 +1,9 @@
 @import url(root.css);
+
+.header-bg {
+  background-color: var(--header-bg);
+}
+
+.white {
+  color: white;
+}
