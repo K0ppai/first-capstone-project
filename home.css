@@ -1,6 +1,6 @@
 @import url(./root.css);
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
   .header-bg {
     display: none;
   }
@@ -150,7 +150,6 @@
     line-height: 15px;
     color: var(--light-orange);
   }
-
   .speaker-name {
     font-weight: 900;
   }
@@ -170,14 +169,77 @@
     font-size: 9px;
     line-height: 14px;
   }
-}
+  .partner-sec{
+    background-color: #414246;
+  }
+  .partner-title{
+    color: white;
+  }
+  .text-light-gray{
+    color: #888;
+  }
+  .font-style-1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .font-style-2{
+    font-family: 'GFS Didot', serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .font-style-3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+  }
+  .font-style-4{
+    font-family: 'Varta', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .font-style-5{
+    font-size: 23px;
+    font-weight: 900;
+  }
+  .text-dark-gray{
+    color: var(--dark-gray);
+  }
+  .footer-desc{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13.08px;
+    color: #3B3E45;
+  }
+  .footer-logo p{
+    font-weight: 900;
+    font-family: 'Lalezar', cursive;
+    line-height: 15px;
+  }
+/* } */
 
 @media screen and (min-width: 768px) {
   .header-bg {
+    top: 0;
     background-color: var(--header-bg);
+    display: block;
   }
 
   .white {
     color: white;
+  }
+  .fa{
+    font-size: 10px;
+  }
+  .header-text{
+    font-size: 8px;
+    font-weight: 400;
+}
+  .hamburger{
+    display: none;
+  }
+  .nav-container{
+    top: 24px;
   }
 }
