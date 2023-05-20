@@ -9,21 +9,238 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&family=Poppins:ital,wght@0,500;0,600;0,700;1,200;1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Space+Mono&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lalezar&family=Source+Sans+Pro:wght@700&family=Varta&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Source+Sans+Pro:wght@700&family=Varta&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="root.css">
 </head>
 <body>
   <header>
-    <div class="container-fluid header-bg">
-      <div class="d-flex col justify-content-between">
-        <a href="#/"><i class="fa fa-facebook white"></i></a>
-        <a href="#/"><i class="fa fa-twitter white"></i></a>
-        <span class="white">English</span>
-        <span class="white">My Page</span>
-        <span class="white">Logout</span>
+    <div class="container-fluid header-bg position-fixed">
+      <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-between align-items-center gap-3 me-5">
+          <a href="#/"><i class="fa fa-facebook white pb-2"></i></a>
+          <a href="#/"><i class="fa fa-twitter white pb-2"></i></a>
+          <span class="white header-text">English</span>
+          <span class="white header-text">My Page</span>
+          <span class="white header-text">Logout</span>
+        </div>
       </div>
     </div>
   </header>
+  <nav>
+    <div class="container-fluid position-fixed nav-container">
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="row">
+          <div class="col-12 col-md-5 h-25 d-flex justify-content-center align-items-center pt-md-0 pb-md-0 pt-2 pb-2">
+            <a href=""><img src="img/creative.jpg"  class="nav-icon pt-md-0"></a>
+            <div class="nav-icon-text ps-md-0 ps-1 pt-1">
+              <p class="mb-0 fw-bolder lh-1">World Talk</p>
+              <p class="mb-0 fw-bold lh-1">Tour <span class="">2023</span></p>
+            </div>
+          </div>
+          <div class="col col-md-4 d-flex align-items-center fw-bold">
+            <ul class="nav-links mb-0">
+              <a href="about.html"><li>About</li></a>
+              <a href=""><li>Program</li></a>
+              <a href=""><li>Join</li></a>
+              <a href=""><li>Join</li></a>
+              <a href=""><li>News</li></a>
+            </ul>
+          </div>
+          <div class="col-md-3 align-items-center justify-content-start d-none d-md-flex ps-5">
+            <p class="p-1 m-1 campaign-text">CC Campaign</p>
+          </div>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="container-fluid ps-md-5" id="intro">
+      <div class="row ps-md-5 ms-md-5 justify-content-start">
+        <div class="col-12 col-md-6 ms-md-5 mt-5 pt-5">
+          <p class="fs-5 mb-1 intro-hello">"Hello everyone around the world!"</p>
+          <p class="intro-title mb-4">Global seminar to change your live 2023</p>
+          <p class="p-2 border-4 border border-white mt-4 intro-desc">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+          <p class="intro-date fs-4 pt-4 mb-0">2023.10.15(THU) ~ 16(FRI)</p>
+          <p class="intro-place pb-5 mb-0">@ National Museum of Karea, Art Center Nabi and more</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <main>
+      <div class="container-fluid project-container">
+        <div class="d-flex flex-column justify-content-center align-items-center pt-4 pb-4">
+          <p class="mb-2 fs-5">Main Program</p>
+          <div class="orange-line"></div>
+        </div>
+        <div class="row justify-content-center gap-md-0 pt-md-4">
+          <div class="col-11 col-md-2 d-flex flex-md-column gap-md-1 justify-content-md-center align-items-center justify-content-between project-sec p-0 mb-1 me-md-1 m-md-0">
+              <img src="img/program-icon(1).png" class="w-50 pe-2 ps-2">
+              <p class="pe-3 mb-0 project-sec-name">Lecture</p>
+              <p class="mb-0 pt-2 pb-2 pe-md-2 ps-md-2 project-desc">Listen to the speakers from various countries about how to change your lives.</p>
+          </div>
+          
+          <div class="col-11 col-md-2 d-flex flex-md-column align-items-center justify-content-between project-sec p-0 mb-1 me-md-1 m-md-0">
+              <img src="img/program-icon(2).png" class="w-50 pe-2 ps-2">
+              <p class="pe-3 mb-0 project-sec-name">Lecture</p>
+              <p class="mb-0 pt-2 pb-2 pe-md-2 ps-md-2 project-desc">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+          </div>
+          
+          <div class="col-11 col-md-2 d-flex flex-md-column align-items-center justify-content-between project-sec p-0 mb-1 me-md-1 m-md-0">
+              <img src="img/program-icon(3).png" class="w-50 pe-2 ps-2">
+              <p class="pe-3 mb-0 project-sec-name">Lecture</p>
+              <p class="mb-0 pt-2 pb-2 pe-md-2 ps-md-2 project-desc">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+          </div>
+          
+          <div class="col-11 col-md-2 d-flex flex-md-column align-items-center justify-content-between project-sec p-0 mb-1 me-md-1 m-md-0">
+              <img src="img/program-icon(4).png" class="w-50 pe-2 ps-2">
+              <p class="pe-3 mb-0 project-sec-name">Lecture</p>
+              <p class="mb-0 pt-2 pb-2 pe-md-2 ps-md-2 project-desc">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+          </div>
+          
+          <div class="col-11 col-md-2 d-flex flex-md-column align-items-center justify-content-between project-sec p-0 mb-1 me-md-1 m-md-0">
+              <img src="img/program-icon(5).png" class="w-50 pe-2 ps-1">
+              <p class="pe-3 mb-0 project-sec-name">Lecture</p>
+              <p class="mb-0 pt-2 pb-2 pe-md-2 ps-md-2 project-desc">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+          </div>
+        </div>
+        <div class="row join-container d-md-none p-3 mt-3 mb-3 justify-content-center">
+          <div class="col-10 join-bg pe-4 ps-4 pt-3 pb-3 d-flex justify-content-center">
+            <p class="mb-0">Join CC Global Summit 2015</p>
+          </div>
+        </div>
+
+        <div class="row p-md-5 see-program">
+          <div class="col d-flex justify-content-center">
+            <p class="border-bottom border-2 border-secondary">SEE THE WHOLE PROGRAM</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+  <article>
+    <div class="container-fluid ps-md-5 pe-md-5">
+      <div class="d-flex flex-column justify-content-center align-items-center pt-4 pb-4">
+        <p class="mb-2 fw-bolder fs-5">Featured Speaker</p>
+        <div class="orange-line"></div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 mt-md-3 ms-md-5 ps-md-5 me-md-5 pe-md-5 justify-content-md-center">
+        <div class="col">
+          <div class="row p-4  speaker-img">
+            <div class="col-4 p-0">
+              <img src="img/Dr+Joe.jpg" class="w-100">
+            </div>
+            <div class="col-8 pe-0">
+              <h5 class="speaker-name mb-1">Joe Dispenza</h5>
+              <p class="fw-bold speaker-desc w-100 mb-1">Doctor of chiropractic, international speaker, and writer</>
+              <div class="gray-line border-top border-2"></div>
+              <p class="fw-bold speaker-work mt-2 mb-0">Joe Dispenza has visited over 33 countries to teach people to create a happier and healthier life.He is also a bestselling author; his books include "You Are The Placebo" and "Breaking The Habit of Being Yourself."</>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="row p-4  speaker-img">
+            <div class="col-4 p-0">
+              <img src="img/simon-sinek.jpg" class="w-100">
+            </div>
+            <div class="col-8 pe-0">
+              <h5 class="speaker-name mb-1">Simon Sinek</h5>
+              <p class="fw-bold speaker-desc w-100 mb-1">British-born American author and inspirational speaker</>
+              <div class="gray-line border-top border-2"></div>
+              <p class="fw-bold speaker-work mt-2 mb-0">Sinek has written five books. "Start With Why", his first book, was published October 2009. His second book, titled "Leaders Eat Last", appeared on the bestseller lists of the Wall Street Journal and The New York Times</>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row p-4  speaker-img">
+            <div class="col-4 p-0">
+              <img src="img/Tony_Robbins.jpg" class="w-100">
+            </div>
+            <div class="col-8 pe-0">
+              <h5 class="speaker-name mb-1">Tony Robbins</h5>
+              <p class="fw-bold speaker-desc w-100 mb-1">American author, coach, speaker, and philanthropist</>
+              <div class="gray-line border-top border-2"></div>
+              <p class="fw-bold speaker-work mt-2 mb-0">Robbins is known for his infomercials, seminars, and self-help books including the books "Unlimited Power" and "Awaken the Giant Within".</>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row p-4  speaker-img">
+            <div class="col-4 p-0">
+              <img src="img/lewis-howesjpg.jpg" class="w-100">
+            </div>
+            <div class="col-8 pe-0">
+              <h5 class="speaker-name mb-1">Lewis Howes</h5>
+              <p class="fw-bold speaker-desc w-100 mb-1">Entrepreneur, performance business coach, YouTuber and keynote speaker</>
+              <div class="gray-line border-top border-2"></div>
+              <p class="fw-bold speaker-work mt-2 mb-0">Lewis Howes hosts a top 100 iTunes ranked podcast, "The School of Greatness", is a New York Times bestselling author of "The School of Greatness" and "The Mask of Masculinity".Details magazine called him one of “5 Internet Guru’s that can Make You Rich.”</>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row p-4  speaker-img">
+            <div class="col-4 p-0">
+              <img src="img/jayshetty.jpg" class="w-100">
+            </div>
+            <div class="col-8 pe-0">
+              <h5 class="speaker-name mb-1">Jay Shetty</h5>
+              <p class="fw-bold speaker-desc w-100 mb-1">British podcaster, author, and life coach</>
+              <div class="gray-line border-top border-2"></div>
+              <p class="fw-bold speaker-work mt-2 mb-0">Shetty is a co-founder of Sama Tea.He has written "Think Like a Monk".The book was a bestseller in 2023.He published “8 Rules of Love: How to Find It, Keep It and Let It Go” which made the New York Times best-seller list.</>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row p-4  speaker-img">
+            <div class="col-4 p-0">
+              <img src="img/robert-greene.jpg" class="w-100">
+            </div>
+            <div class="col-8 pe-0">
+              <h5 class="speaker-name mb-1">Robert Greene</h5>
+              <p class="fw-bold speaker-desc w-100 mb-1">American author of books on strategy, power, and seduction</>
+              <div class="gray-line border-top border-2"></div>
+              <p class="fw-bold speaker-work mt-2 mb-0">Greene has written six international bestsellers, including "The 48 Laws of Power", "The Art of Seduction", "The 33 Strategies of War", "The 50th Law", "Mastery", and "The Laws of Human Nature".</>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </article>
+  <footer>
+    <div class="container-fluid partner-sec pt-md-4 pb-md-4">
+      <div class="d-flex flex-column justify-content-center align-items-center pt-4 pb-4">
+        <p class="mb-2 fw-bolder fs-5 partner-title">Partner</p>
+        <div class="orange-line orange-line-desk"></div>
+      </div>
+      <div class="row row-cols-3 row-cols-md-auto partner-sec-font justify-content-center">
+        <div class="col d-flex justify-content-center align-items-center"><p class=" text-light-gray font-style-1">Y<span class="text-dark-gray">o</span>uT<span class="text-dark-gray">ub</span>e</p></div>
+        <div class="col d-flex justify-content-center align-items-center"><p class="text-light-gray font-style-2">Spotify</p></div>
+        <div class="col d-flex justify-content-center align-items-center"><p class="text-light-gray font-style-4 pt-2">Facebook</p></div>
+        <div class="col d-flex justify-content-center align-items-center"><p class="text-light-gray font-style-3 text-center">Google Podcasts</p></div>
+        <div class="col d-flex justify-content-center align-items-center"><p class="text-light-gray font-style-5">SoundCloud</p></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footer-container justify-content-center align-items-center mt-4 mb-4 p-md-5">
+        <div class="col-6 d-flex col-md-2 justify-content-md-end footer-logo align-items-center mb-0">
+          <img src="img/creative.jpg" class="partner-logo">
+          <p class="mb-0">World Tour Myanmar show</p>
+        </div>
+        <div class="col-6">
+          <p class="footer-desc">2015 Creative Commons Korea. Some Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="popUp.js"></script>
   <script src="https://kit.fontawesome.com/9e6b5903a6.js" crossorigin="anonymous"></script>
