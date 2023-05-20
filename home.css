@@ -209,7 +209,7 @@
   }
   .footer-desc{
     font-size: 10px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 13.08px;
     color: #3B3E45;
   }
@@ -217,6 +217,12 @@
     font-weight: 900;
     font-family: 'Lalezar', cursive;
     line-height: 15px;
+  }
+  .partner-logo{
+    width: 20%;
+  }
+  .see-program{
+    display: none;
   }
 /* } */
 
@@ -226,7 +232,11 @@
     background-color: var(--header-bg);
     display: block;
   }
-
+  .intro-title{
+    font-size: 70px;
+    line-height: 100%;
+    background-position: -100% -100%;
+  }
   .white {
     color: white;
   }
@@ -273,5 +283,20 @@
   }
   .speaker-img{
     background-position: 2% 10%;
+  }
+  .text-light-gray{
+    font-size: 40px;
+  }
+  .orange-line{
+    border-top: #a04038 1px solid;
+  }
+  .orange-line-desk{
+    width: 2.3%;
+  }
+  .partner-title{
+    color: var(--light-gray);
+  }
+  .partner-logo{
+    width: 25%;
   }
 }
