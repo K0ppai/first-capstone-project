@@ -88,8 +88,6 @@
     font-weight: 800;
     font-size: 45px;
     line-height: 3rem;
-
-    /* color: var(--dark-orange); */
     background-image: url(img/textbg.jpg);
     background-position: -70% -50%;
     color: transparent;
@@ -233,10 +231,10 @@
     color: white;
   }
   .fa{
-    font-size: 10px;
+    font-size: 12px;
   }
   .header-text{
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 400;
 }
   .hamburger{
@@ -251,7 +249,7 @@
     height: unset;
     padding-top: 0px;
     padding-left: 0px;
-    font-size: 8px;
+    font-size: 12px;
     align-items: center;
     justify-content: space-between;
   }
@@ -259,18 +257,21 @@
     color: #EC4327;
     font-weight: 900;
     border: #EC4327 3px solid;
-    font-size: 8px;
-  }
-  .nav-icon-text p{
     font-size: 10px;
   }
+  .nav-icon-text p{
+    font-size: 15px;
+  }
   .nav-icon{
-    width: 30px;
+    width: 40px;
   }
   #intro{
     background-image: url(img/main-bg.png);
   }
   .orange-line{
     width: 5%;
+  }
+  .speaker-img{
+    background-position: 2% 10%;
   }
 }
