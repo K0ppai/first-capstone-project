@@ -1,14 +1,16 @@
 @import url(./root.css);
 
-@media screen and (max-width: 768px){
-  .header-bg{
+@media screen and (max-width: 768px) {
+  .header-bg {
     display: none;
   }
-  .nav-container{
-    box-shadow: 0px 2px 8px #888888;
+
+  .nav-container {
+    box-shadow: 0 2px 8px #888;
     top: 0;
     background-color: white;
   }
+
   .hamburger {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
@@ -19,7 +21,7 @@
     border-radius: 5px;
     z-index: 10;
   }
-  
+
   .hamburger .bar {
     display: block;
     width: 32px;
@@ -27,21 +29,24 @@
     margin: 4px auto;
     background-color: var(--dark-gray);
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
+
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
   }
-  
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-9px) rotate(-45deg);
   }
-  .nav-icon{
+
+  .nav-icon {
     width: 50px;
   }
-  .nav-links{
+
+  .nav-links {
     color: var(--dark-gray);
     position: fixed;
     display: flex;
@@ -58,24 +63,29 @@
     padding-left: 30px;
     font-size: 25px;
   }
-  .nav-links a{
+
+  .nav-links a {
     color: inherit;
   }
+
   .nav-links.active {
     left: 0;
     color: #3a4a42;
   }
-  #intro{
+
+  #intro {
     background-image: url(img/mobile-intro-bg.png);
     background-size: cover;
     margin-top: 70px;
     background-repeat: no-repeat;
     background-position: 0 80%;
   }
-  .intro-title{
+
+  .intro-title {
     font-weight: 800;
     font-size: 45px;
     line-height: 3rem;
+
     /* color: var(--dark-orange); */
     background-image: url(img/textbg.jpg);
     background-position: -70% -50%;
@@ -83,53 +93,91 @@
     background-clip: content-box;
     -webkit-background-clip: text;
   }
-  .intro-desc{
+
+  .intro-desc {
     font-size: smaller;
     color: var(--light-gray);
+    background-color: #f8f8f8;
   }
-  .intro-date{
+
+  .intro-date {
     font-weight: 800;
     color: var(--dark-gray);
   }
-  .intro-place{
+
+  .intro-place {
+    font-size: smaller;
     font-weight: 600;
     color: var(--light-gray);
   }
-  .intro-hello{
+
+  .intro-hello {
     color: var(--light-orange);
   }
-  .orange-line{
+
+  .orange-line {
     width: 9%;
-    border-top: #A04038 3px solid;
+    border-top: #a04038 3px solid;
   }
-  .project-container{
-    background-color: #282B32;
+
+  .project-container {
+    background-color: #282b32;
     background-image: url(img/program-section-bg.png);
     color: white;
   }
-  .project-sec{
-    background-color: rgb(59, 62, 69,0.4);
+
+  .project-sec {
+    background-color: rgb(59, 62, 69, 0.4);
     margin: 2px 5px;
   }
-  .project-sec-name{
-    color: #FF5438;
+
+  .project-sec-name {
+    color: #ff5438;
     font-weight: 600;
   }
-  .project-desc{
+
+  .project-desc {
     font-size: 11px;
     line-height: 20px;
   }
-  .join-bg{
-    background-color: #FF4F38;
+
+  .join-bg {
+    background-color: #ff4f38;
+  }
+
+  .speaker-desc {
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--light-orange);
+  }
+
+  .speaker-name {
+    font-weight: 900;
+  }
+
+  .speaker-img {
+    background-image: url(img/speaker-bg.jpg);
+    background-size: 30%;
+    background-position: 4% 12%;
+    background-repeat: no-repeat;
+  }
+
+  .gray-line {
+    width: 12%;
+  }
+
+  .speaker-work {
+    font-size: 9px;
+    line-height: 14px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .header-bg {
     background-color: var(--header-bg);
   }
-  
+
   .white {
     color: white;
   }
-  
 }
