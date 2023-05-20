@@ -7,6 +7,7 @@
   .nav-container{
     box-shadow: 0px 2px 8px #888888;
     top: 0;
+    background-color: white;
   }
   .hamburger {
     cursor: pointer;
@@ -97,7 +98,30 @@
   .intro-hello{
     color: var(--light-orange);
   }
-
+  .orange-line{
+    width: 9%;
+    border-top: #A04038 3px solid;
+  }
+  .project-container{
+    background-color: #282B32;
+    background-image: url(img/program-section-bg.png);
+    color: white;
+  }
+  .project-sec{
+    background-color: rgb(59, 62, 69,0.4);
+    margin: 2px 5px;
+  }
+  .project-sec-name{
+    color: #FF5438;
+    font-weight: 600;
+  }
+  .project-desc{
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .join-bg{
+    background-color: #FF4F38;
+  }
 }
 @media screen and (min-width: 768px) {
   .header-bg {
