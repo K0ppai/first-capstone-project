@@ -18,12 +18,12 @@
     left: 20px;
     top: 15px;
     padding: 4px 6px;
-    border-radius: 5px;
     z-index: 10;
   }
-
+  
   .hamburger .bar {
     display: block;
+    border-radius: 5px;
     width: 32px;
     height: 5px;
     margin: 4px auto;
@@ -45,7 +45,6 @@
   .nav-icon {
     width: 50px;
   }
-
   .nav-links {
     color: var(--dark-gray);
     position: fixed;
@@ -73,6 +72,10 @@
     color: #3a4a42;
   }
 
+  .nav-icon-text{
+    font-weight: 900;
+  }
+  
   #intro {
     background-image: url(img/mobile-intro-bg.png);
     background-size: cover;
@@ -241,5 +244,33 @@
   }
   .nav-container{
     top: 24px;
+  }
+  .nav-links{
+    position: unset;
+    flex-direction: row;
+    height: unset;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 8px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .campaign-text{
+    color: #EC4327;
+    font-weight: 900;
+    border: #EC4327 3px solid;
+    font-size: 8px;
+  }
+  .nav-icon-text p{
+    font-size: 10px;
+  }
+  .nav-icon{
+    width: 30px;
+  }
+  #intro{
+    background-image: url(img/main-bg.png);
+  }
+  .orange-line{
+    width: 5%;
   }
 }
