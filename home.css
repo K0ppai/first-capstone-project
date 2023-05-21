@@ -1,99 +1,103 @@
 @import url(./root.css);
 
 /* @media screen and (max-width: 768px) { */
-  .header-bg {
-    display: none;
-  }
-  
-  .nav-container {
-    box-shadow: 0 2px 8px #888;
-    top: 0;
-    background-color: white;
-    z-index: 10;
-  }
-  
-  .hamburger {
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    left: 20px;
-    top: 7px;
-    padding: 4px 6px;
-    z-index: 10;
-  }
-  
-  .hamburger .bar {
-    display: block;
-    border-radius: 5px;
-    width: 28px;
-    height: 4px;
-    margin: 4px auto;
-    background-color: var(--dark-gray);
-  }
-  
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  
-  .nav-icon {
-    width: 34px;
-    rotate: 30deg;
-  }
-  
-  .nav-links {
-    color: var(--dark-gray);
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    left: -200%;
-    height: 100vh;
-    top: 0;
-    background-color: #fff;
-    width: 100%;
-    text-align: left;
-    transition: 0.5s;
-    padding-top: 80px;
-    padding-left: 30px;
-    font-size: 25px;
-  }
-  
-  .nav-links a {
-    color: inherit;
-  }
-  
-  .nav-links.active {
-    left: 0;
-    color: #3a4a42;
-  }
-  
-  .nav-icon-text {
-    font-weight: 900;
-  }
-  .nav-icon-text p{
-    font-size: 22px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 900;
-  }
-  .nav-icon-text p:nth-child(1){
-    color: var(--dark-orange);
-  }
-  .nav-icon-text p:nth-child(2){
-    font-size: 13px;
-  }
-  .nav-icon-text span{
-    color: var(--dark-orange);
-    font-size: 13px;
-  }
-  
+.header-bg {
+  display: none;
+}
+
+.nav-container {
+  box-shadow: 0 2px 8px #888;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.hamburger {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 20px;
+  top: 7px;
+  padding: 4px 6px;
+  z-index: 10;
+}
+
+.hamburger .bar {
+  display: block;
+  border-radius: 5px;
+  width: 28px;
+  height: 4px;
+  margin: 4px auto;
+  background-color: var(--dark-gray);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-icon {
+  width: 34px;
+  rotate: 30deg;
+}
+
+.nav-links {
+  color: var(--dark-gray);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: -200%;
+  height: 100vh;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  transition: 0.5s;
+  padding-top: 80px;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+.nav-links a {
+  color: inherit;
+}
+
+.nav-links.active {
+  left: 0;
+  color: #3a4a42;
+}
+
+.nav-icon-text {
+  font-weight: 900;
+}
+
+.nav-icon-text p {
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+
+.nav-icon-text p:nth-child(1) {
+  color: var(--dark-orange);
+}
+
+.nav-icon-text p:nth-child(2) {
+  font-size: 13px;
+}
+
+.nav-icon-text span {
+  color: var(--dark-orange);
+  font-size: 13px;
+}
+
 #intro {
   background-image: url(img/mobile-intro-bg.png);
   background-size: cover;
@@ -243,7 +247,7 @@
   color: #3b3e45;
 }
 
-.footer-logo p {
+.footer-container .footer-logo p {
   font-weight: 900;
   font-family: 'Quicksand', cursive;
   line-height: 12px;
