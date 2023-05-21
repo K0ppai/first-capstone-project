@@ -355,7 +355,7 @@
     font-weight: 600;
   }
   .orange-line {
-    width: 5%;
+    width: 4%;
     border-top: #a04038 3px solid;
   }
   #intro{
@@ -367,5 +367,28 @@
   }
   .contact-bg{
     background-color: unset;
+  }
+  .logo-container{
+    border: solid rgb(167, 167, 167,0.3) 1px ;
+  }
+  .past-event-container{
+    border-top: solid rgb(167, 167, 167,0.5) 1px;
+  }
+  .partner-sec{
+    display: none;
+  }
+  .footer-container{
+    background-color: #2E2E2E;
+    color: white;
+  }
+  .footer-desc{
+    color: white;
+  }
+  .partner-logo{
+    width: 50px;
+  }
+  .footer-container .footer-logo p {
+    font-size: 20px;
+    line-height: 20px;
   }
 }

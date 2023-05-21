@@ -349,11 +349,15 @@
     color: var(--light-gray);
   }
 
-  .partner-logo {
-    width: 25%;
-  }
-
   .see-program {
     display: block;
+  }
+  .partner-logo{
+    width: 50px;
+  }
+  .footer-container .footer-logo p {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 900;
   }
 }
