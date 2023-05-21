@@ -101,7 +101,7 @@
 #intro {
   background-image: url(img/mobile-intro-bg.png);
   background-size: cover;
-  margin-top: 70px;
+  margin-top: 55px;
   background-repeat: no-repeat;
   background-position: 0 80%;
 }
@@ -352,9 +352,11 @@
   .see-program {
     display: block;
   }
-  .partner-logo{
+
+  .partner-logo {
     width: 50px;
   }
+
   .footer-container .footer-logo p {
     font-size: 20px;
     line-height: 20px;
