@@ -3,7 +3,9 @@
 .header-bg {
   display: none;
 }
-
+.meeting-count{
+  display: none;
+}
 .nav-container {
   box-shadow: 0 2px 8px #888;
   top: 0;
@@ -285,4 +287,85 @@
 
 .see-program {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-bg {
+    top: 0;
+    background-color: var(--header-bg);
+    display: block;
+  }
+
+  .intro-title {
+    font-size: 70px;
+    line-height: 100%;
+    background-position: -100% -100%;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .fa {
+    font-size: 12px;
+  }
+
+  .header-text {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-container {
+    top: 24px;
+  }
+
+  .nav-links {
+    position: unset;
+    flex-direction: row;
+    height: unset;
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .campaign-text {
+    color: #ec4327;
+    font-weight: 900;
+    border: #ec4327 3px solid;
+    font-size: 10px;
+  }
+
+  .nav-icon-text p {
+    font-size: 15px;
+  }
+
+  .nav-icon {
+    width: 30px;
+  }
+  .intro-hello{
+    display: none;
+  }
+  .meeting-count{
+    display: block;
+    font-weight: 600;
+  }
+  .orange-line {
+    width: 5%;
+    border-top: #a04038 3px solid;
+  }
+  #intro{
+    background-image: url(img/desktop-about-bg.png);
+    margin-top: 62px;
+  }
+  .intro-bg-layer{
+  background-color: rgb(232, 232, 232,0.7);
+  }
+  .contact-bg{
+    background-color: unset;
+  }
 }
