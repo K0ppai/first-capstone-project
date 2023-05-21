@@ -8,6 +8,7 @@
   box-shadow: 0 2px 8px #888;
   top: 0;
   background-color: white;
+  z-index: 10;
 }
 
 .hamburger {
@@ -15,7 +16,7 @@
   background-color: rgb(255, 255, 255);
   position: fixed;
   left: 20px;
-  top: 15px;
+  top: 7px;
   padding: 4px 6px;
   z-index: 10;
 }
@@ -23,8 +24,8 @@
 .hamburger .bar {
   display: block;
   border-radius: 5px;
-  width: 32px;
-  height: 5px;
+  width: 28px;
+  height: 4px;
   margin: 4px auto;
   background-color: var(--dark-gray);
 }
@@ -34,15 +35,16 @@
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: translateY(-9px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .nav-icon {
-  width: 50px;
+  width: 34px;
+  rotate: 30deg;
 }
 
 .nav-links {
@@ -74,6 +76,21 @@
 
 .nav-icon-text {
   font-weight: 900;
+}
+.nav-icon-text p{
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+.nav-icon-text p:nth-child(1){
+  color: var(--dark-orange);
+}
+.nav-icon-text p:nth-child(2){
+  font-size: 13px;
+}
+.nav-icon-text span{
+  color: var(--dark-orange);
+  font-size: 13px;
 }
 
 #intro {
@@ -118,7 +135,7 @@
 }
 
 .orange-line {
-  width: 9%;
+  width: 14%;
   border-top: #a04038 3px solid;
 }
 .logo-sec-title{
@@ -157,4 +174,93 @@
 .logo-container{
   border-bottom: solid var(--light-gray) 1px;
   border-top: solid var(--light-gray) 1px;
+}
+.past-event-container{
+  border-top: solid var(--light-gray) 1px;
+}
+.past-event-bg-1{
+  background-image: url(img/past-event-1.jpg);
+  background-size: cover;
+  color: white;
+}
+.bg-layer{
+  background-color: rgba(249, 50, 0, 0.4);
+}
+.past-event-bg-2{
+  background-image: url(img/past-event-2.jpg);
+  background-size: cover;
+  color: white;
+}
+.past-event-bg-1 h3,.past-event-bg-2 h3{
+  font-weight: 900;
+}
+.past-event-bg-1 p,.past-event-bg-2 p{
+  font-weight: 500;
+}
+.partner-sec {
+  background-color: #414246;
+}
+
+.partner-title {
+  color: white;
+}
+
+.text-light-gray {
+  color: #888;
+}
+
+.font-style-1 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.font-style-2 {
+  font-family: 'GFS Didot', serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.font-style-3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.font-style-4 {
+  font-family: 'Varta', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.font-style-5 {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.text-dark-gray {
+  color: var(--dark-gray);
+}
+
+.footer-desc {
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 13.08px;
+  color: #3b3e45;
+}
+
+.footer-logo p {
+  font-weight: 900;
+  font-family: 'Quicksand', cursive;
+  line-height: 12px;
+  font-size: 14px;
+}
+
+.partner-logo {
+  width: 20%;
+}
+
+.see-program {
+  display: none;
 }
