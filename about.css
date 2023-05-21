@@ -1,1 +1,160 @@
 @import url(root.css);
+
+.header-bg {
+  display: none;
+}
+
+.nav-container {
+  box-shadow: 0 2px 8px #888;
+  top: 0;
+  background-color: white;
+}
+
+.hamburger {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 20px;
+  top: 15px;
+  padding: 4px 6px;
+  z-index: 10;
+}
+
+.hamburger .bar {
+  display: block;
+  border-radius: 5px;
+  width: 32px;
+  height: 5px;
+  margin: 4px auto;
+  background-color: var(--dark-gray);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+.nav-icon {
+  width: 50px;
+}
+
+.nav-links {
+  color: var(--dark-gray);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: -200%;
+  height: 100vh;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  transition: 0.5s;
+  padding-top: 80px;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+.nav-links a {
+  color: inherit;
+}
+
+.nav-links.active {
+  left: 0;
+  color: #3a4a42;
+}
+
+.nav-icon-text {
+  font-weight: 900;
+}
+
+#intro {
+  background-image: url(img/about-bg.png);
+  background-size: auto;
+  margin-top: 70px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+.intro-title {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 3rem;
+  color: var(--dark-orange);
+}
+
+.intro-desc {
+  font-size: smaller;
+  line-height: 1.5rem;
+  background-color: #FFFFFF;
+}
+
+.contact-bg{
+  background-color: #e8e8e8;
+}
+.intro-contact {
+  font-weight: 700;
+  color: var(--light-gray);
+  font-size: 12px;
+  line-height: 1.5rem;
+}
+
+.intro-email {
+  font-size: smaller;
+  font-weight: 900;
+  color: var(--light-gray);
+}
+
+.intro-hello {
+  color: var(--light-orange);
+}
+
+.orange-line {
+  width: 9%;
+  border-top: #a04038 3px solid;
+}
+.logo-sec-title{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #2C2C2C;
+  text-align: center;
+}
+.logo-desc{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #838383;
+  text-align: center;
+}
+.logo-icon-text{
+  font-size: 35px;
+  font-weight: 900;
+}
+.logo-icon-text p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+.logo-icon-text p:nth-child(1){
+  color: var(--dark-orange);
+}
+.logo-icon-text span{
+  color: var(--dark-orange);
+}
+.logo-icon{
+  width: 55px;
+  rotate: 30deg;
+}
+.logo-container{
+  border-bottom: solid var(--light-gray) 1px;
+  border-top: solid var(--light-gray) 1px;
+}
