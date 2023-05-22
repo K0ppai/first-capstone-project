@@ -24,7 +24,7 @@
   background-color: rgb(255, 255, 255);
   position: fixed;
   left: 20px;
-  top: 7px;
+  top: 1.5%;
   padding: 4px 6px;
   z-index: 10;
 }
@@ -51,8 +51,7 @@
 }
 
 .nav-icon {
-  width: 34px;
-  rotate: 30deg;
+  width: 35%;
 }
 
 .nav-links {
@@ -73,12 +72,24 @@
   font-size: 25px;
 }
 
-.nav-links a:hover{
+.nav-links a {
+  font-size: 0.9rem;
+  color: inherit;
+}
+
+.nav-links a:hover {
   color: #ec4327;
 }
 
-.nav-links a {
-  color: inherit;
+.white:hover {
+  color: #ec4327;
+  cursor: pointer;
+}
+
+.campaign-text:hover {
+  cursor: pointer;
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition: 0.5s;
 }
 
 .nav-links.active {
@@ -109,12 +120,16 @@
   font-size: 13px;
 }
 
-#intro {
-  background-image: url(img/about-bg.png);
-  background-size: auto;
-  margin-top: 70px;
+.intro-bg-layer {
+  background-image: url(img/about-01.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 0 -25px;
+}
+
+#intro {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 55px;
 }
 
 .intro-title {
@@ -125,13 +140,19 @@
 }
 
 .intro-desc {
-  font-size: smaller;
-  line-height: 1.5rem;
-  background-color: #fff;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.intro-desc strong {
+  color: var(--dark-orange);
+  font-weight: 700;
+  font-size: larger;
 }
 
 .contact-bg {
-  background-color: #e8e8e8;
+  background-color: rgb(232, 232, 232);
 }
 
 .intro-contact {
@@ -158,7 +179,7 @@
 
 .logo-sec-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 28px;
   color: #2c2c2c;
   text-align: center;
@@ -192,8 +213,7 @@
 }
 
 .logo-icon {
-  width: 55px;
-  rotate: 30deg;
+  width: 80%;
 }
 
 .logo-container {
@@ -292,7 +312,7 @@
 }
 
 .partner-logo {
-  width: 20%;
+  width: 100%;
 }
 
 .see-program {
@@ -310,6 +330,15 @@
     font-size: 70px;
     line-height: 100%;
     background-position: -100% -100%;
+  }
+
+  .intro-desc {
+    background-color: rgb(255, 234, 215, 0.9);
+    background-color: unset;
+  }
+
+  .intro-bg-layer {
+    background-position: -90px 140px;
   }
 
   .white {
@@ -333,6 +362,10 @@
     top: 24px;
   }
 
+  .logo-desc {
+    color: var(--dark-orange);
+  }
+
   .nav-links {
     position: unset;
     flex-direction: row;
@@ -348,7 +381,7 @@
     color: #ec4327;
     font-weight: 900;
     border: #ec4327 3px solid;
-    font-size: 10px;
+    font-size: 0.8rem;
   }
 
   .nav-icon-text p {
@@ -356,7 +389,7 @@
   }
 
   .nav-icon {
-    width: 30px;
+    width: 20%;
   }
 
   .intro-hello {
@@ -365,7 +398,7 @@
 
   .meeting-count {
     display: block;
-    font-weight: 600;
+    font-weight: 900;
   }
 
   .orange-line {
@@ -374,12 +407,16 @@
   }
 
   #intro {
-    background-image: url(img/desktop-about-bg.png);
+    background-color: rgb(247, 146, 61, 0.05);
     margin-top: 62px;
   }
 
-  .intro-bg-layer {
-    background-color: rgb(232, 232, 232, 0.7);
+  .intro-contact {
+    color: black;
+  }
+
+  .intro-email {
+    color: black;
   }
 
   .contact-bg {
@@ -408,7 +445,7 @@
   }
 
   .partner-logo {
-    width: 50px;
+    width: 80%;
   }
 
   .footer-container .footer-logo p {

@@ -64,12 +64,14 @@
   padding-left: 30px;
   font-size: 25px;
 }
-.nav-links a:hover{
-  color: #ec4327;
-}
+
 .nav-links a {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: inherit;
+}
+
+.nav-links a:hover {
+  color: #ec4327;
 }
 
 .nav-links.active {
@@ -150,6 +152,7 @@
   background-color: rgb(253, 189, 0);
   background-image: url(img/orange-bg-removebg.png);
   background-size: 100%;
+
   /* background-repeat: no-repeat; */
   color: rgb(0, 0, 0);
 }
@@ -182,9 +185,10 @@
   color: var(--light-orange);
 }
 
-.program-icon{
+.program-icon {
   width: 100%;
 }
+
 .speaker-name {
   font-weight: 900;
 }
@@ -292,10 +296,11 @@
     color: white;
   }
 
-  .white:hover{
+  .white:hover {
     color: #ec4327;
     cursor: pointer;
   }
+
   .fa {
     font-size: 12px;
   }
@@ -313,6 +318,10 @@
     top: 24px;
   }
 
+  .intro-desc {
+    font-size: 16px;
+  }
+
   .nav-links {
     position: unset;
     flex-direction: row;
@@ -324,10 +333,11 @@
     justify-content: space-between;
   }
 
-  .project-container{
+  .project-container {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .campaign-text {
     color: #ec4327;
     font-weight: 900;
@@ -335,11 +345,12 @@
     font-size: 0.8rem;
   }
 
-  .campaign-text:hover{
+  .campaign-text:hover {
     cursor: pointer;
-    transform: scale3d(1.1,1.1,1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
     transition: 0.5s;
   }
+
   .nav-icon-text p {
     font-size: 15px;
   }
@@ -368,9 +379,11 @@
   .orange-line-desk {
     width: 2.3%;
   }
-  .program-icon{
+
+  .program-icon {
     width: 30%;
   }
+
   .partner-title {
     color: var(--light-gray);
   }
@@ -378,10 +391,12 @@
   .see-program {
     display: block;
   }
-  .see-program p:hover{
-    color:white;
+
+  .see-program p:hover {
+    color: white;
     cursor: pointer;
   }
+
   .partner-logo {
     width: 60%;
   }
@@ -391,7 +406,8 @@
     line-height: 20px;
     font-weight: 900;
   }
-  .footer-desc{
+
+  .footer-desc {
     font-size: 13px;
     line-height: 15px;
   }
