@@ -108,7 +108,7 @@
   background-size: cover;
   margin-top: 55px;
   background-repeat: no-repeat;
-  background-position: 0 80%;
+  background-position: 20% 5px;
 }
 
 .intro-title {
@@ -116,7 +116,7 @@
   font-size: 45px;
   line-height: 3rem;
   background-image: url(img/textbg.jpg);
-  background-position: -70% -50%;
+  background-position: -30% 30%;
   color: transparent;
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -366,6 +366,7 @@
 
   #intro {
     background-image: url(img/main-bg.png);
+    background-position: 10px 0;
   }
 
   .speaker-img {
