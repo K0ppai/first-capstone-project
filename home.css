@@ -66,8 +66,9 @@
 }
 
 .nav-links a {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: inherit;
+  line-height: 1.4rem;
 }
 
 .nav-links a:hover {
@@ -331,6 +332,10 @@
     font-size: 12px;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .nav-links a{
+    font-size: 0.9rem;
   }
 
   .project-container {

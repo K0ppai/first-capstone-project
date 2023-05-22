@@ -73,8 +73,9 @@
 }
 
 .nav-links a {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: inherit;
+  line-height: 1.4rem;
 }
 
 .nav-links a:hover {
@@ -376,7 +377,9 @@
     align-items: center;
     justify-content: space-between;
   }
-
+  .nav-links a{
+    font-size: 0.9rem;
+  }
   .campaign-text {
     color: #ec4327;
     font-weight: 900;
