@@ -61,3 +61,9 @@ for (let i = 0; i < speakerData.length; i += 1) {
         </div>
   `;
 }
+
+const footerContent = document.querySelector('.footer-desc');
+const mediaQuery = window.matchMedia('(min-width: 768px)');
+if (mediaQuery.matches) {
+  footerContent.innerHTML = ``
+}
