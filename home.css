@@ -17,7 +17,7 @@
   background-color: rgb(255, 255, 255);
   position: fixed;
   left: 20px;
-  top: 7px;
+  top: 1.5%;
   padding: 4px 6px;
   z-index: 10;
 }
@@ -44,8 +44,7 @@
 }
 
 .nav-icon {
-  width: 34px;
-  rotate: 30deg;
+  width: 35%;
 }
 
 .nav-links {
@@ -65,8 +64,11 @@
   padding-left: 30px;
   font-size: 25px;
 }
-
+.nav-links a:hover{
+  color: #ec4327;
+}
 .nav-links a {
+  font-size: .9rem;
   color: inherit;
 }
 
@@ -135,7 +137,8 @@
 }
 
 .intro-hello {
-  color: var(--light-orange);
+  color: var(--dark-orange);
+  font-weight: 600;
 }
 
 .orange-line {
@@ -144,18 +147,22 @@
 }
 
 .project-container {
-  background-color: #282b32;
-  background-image: url(img/program-section-bg.png);
-  color: white;
+  background-color: rgb(253, 189, 0);
+  background-image: url(img/orange-bg-removebg.png);
+  background-size: 100%;
+  /* background-repeat: no-repeat; */
+  color: rgb(0, 0, 0);
 }
 
 .project-sec {
-  background-color: rgb(59, 62, 69, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 7px;
   margin: 2px 5px;
 }
 
 .project-sec-name {
-  color: #ff5438;
+  font-size: 14px;
+  color: #fd3516;
   font-weight: 600;
 }
 
@@ -165,7 +172,8 @@
 }
 
 .join-bg {
-  background-color: #ff4f38;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .speaker-desc {
@@ -174,6 +182,9 @@
   color: var(--light-orange);
 }
 
+.program-icon{
+  width: 100%;
+}
 .speaker-name {
   font-weight: 900;
 }
@@ -255,7 +266,7 @@
 }
 
 .partner-logo {
-  width: 20%;
+  width: 60%;
 }
 
 .see-program {
@@ -281,6 +292,10 @@
     color: white;
   }
 
+  .white:hover{
+    color: #ec4327;
+    cursor: pointer;
+  }
   .fa {
     font-size: 12px;
   }
@@ -309,19 +324,28 @@
     justify-content: space-between;
   }
 
+  .project-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .campaign-text {
     color: #ec4327;
     font-weight: 900;
     border: #ec4327 3px solid;
-    font-size: 10px;
+    font-size: 0.8rem;
   }
 
+  .campaign-text:hover{
+    cursor: pointer;
+    transform: scale3d(1.1,1.1,1.1);
+    transition: 0.5s;
+  }
   .nav-icon-text p {
     font-size: 15px;
   }
 
   .nav-icon {
-    width: 30px;
+    width: 20%;
   }
 
   #intro {
@@ -344,7 +368,9 @@
   .orange-line-desk {
     width: 2.3%;
   }
-
+  .program-icon{
+    width: 30%;
+  }
   .partner-title {
     color: var(--light-gray);
   }
@@ -352,14 +378,21 @@
   .see-program {
     display: block;
   }
-
+  .see-program p:hover{
+    color:white;
+    cursor: pointer;
+  }
   .partner-logo {
-    width: 50px;
+    width: 60%;
   }
 
   .footer-container .footer-logo p {
     font-size: 20px;
     line-height: 20px;
     font-weight: 900;
+  }
+  .footer-desc{
+    font-size: 13px;
+    line-height: 15px;
   }
 }

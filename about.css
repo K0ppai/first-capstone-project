@@ -1,5 +1,9 @@
 @import url(root.css);
 
+/* *{
+    outline: red 1px solid !important;
+  } */
+
 .header-bg {
   display: none;
 }
@@ -67,6 +71,10 @@
   padding-top: 80px;
   padding-left: 30px;
   font-size: 25px;
+}
+
+.nav-links a:hover{
+  color: #ec4327;
 }
 
 .nav-links a {
