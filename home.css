@@ -197,7 +197,7 @@
 .speaker-img {
   background-image: url(img/speaker-bg.jpg);
   background-size: 30%;
-  background-position: 4% 12%;
+  background-position: 9px 10px;
   background-repeat: no-repeat;
 }
 
@@ -369,7 +369,7 @@
   }
 
   .speaker-img {
-    background-position: 2% 10%;
+    background-position: 6px 6.5px;
   }
 
   .text-light-gray {
