@@ -43,7 +43,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- 
+- Click this [link](https://k0ppai.github.io/first-capstone-project/) for live view.
 
 
 
