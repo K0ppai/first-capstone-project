@@ -353,6 +353,8 @@
   .campaign-text:hover {
     cursor: pointer;
     transform: scale3d(1.1, 1.1, 1.1);
+    color: rgb(245, 114, 59);
+    border-color: rgb(245, 114, 59);
     transition: 0.5s;
   }
 
