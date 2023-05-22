@@ -377,9 +377,11 @@
     align-items: center;
     justify-content: space-between;
   }
-  .nav-links a{
+
+  .nav-links a {
     font-size: 0.9rem;
   }
+
   .campaign-text {
     color: #ec4327;
     font-weight: 900;
