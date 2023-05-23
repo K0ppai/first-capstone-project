@@ -213,6 +213,12 @@
   background-repeat: no-repeat;
 }
 
+#speaker:nth-child(3),
+#speaker:nth-child(4),
+#speaker:nth-child(5),
+#speaker:nth-child(6){
+  display: none;
+}
 .gray-line {
   width: 12%;
 }
