@@ -143,7 +143,7 @@
 }
 
 .intro-desc strong {
-  color: var(--dark-orange);
+  color: black;
   font-weight: 700;
   font-size: larger;
 }
@@ -359,10 +359,6 @@
 
   .nav-container {
     top: 24px;
-  }
-
-  .logo-desc {
-    color: var(--dark-orange);
   }
 
   .nav-links {
