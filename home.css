@@ -175,9 +175,23 @@
 
 .join-bg {
   border-radius: 7px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #FF4F38;
 }
-
+.more-container{
+  border: solid 1px rgb(122, 122, 122,0.4);
+  border-radius: 5px;
+  box-shadow: 0 0 10px #cecece;
+}
+.fa-angle-down,.fa-angle-up{
+  color: #ec4327;
+}
+.fa-solid.fa-angle-up{
+  display: none;
+}
+.more-text{
+  font-size: 14px;
+  font-weight: 700;
+}
 .speaker-desc {
   font-size: 10px;
   line-height: 15px;
@@ -387,7 +401,9 @@
   .program-icon {
     width: 30%;
   }
-
+  #more{
+    display: none;
+  }
   .partner-title {
     color: var(--light-gray);
   }

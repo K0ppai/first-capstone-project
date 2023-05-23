@@ -44,20 +44,47 @@ const parentElement = document.getElementById('feature-speaker');
 const div = document.createElement('div');
 div.className = 'row row-cols-1 row-cols-md-2 mt-md-3 ms-md-5 ps-md-5 me-md-5 pe-md-5 justify-content-md-center';
 insertAfter(div, parentElement.lastElementChild);
-for (let i = 0; i < speakerData.length; i += 1) {
-  div.innerHTML += `
-  <div class="col">
-          <div class="row p-4  speaker-img">
-            <div class="col-4 p-0">
-              <img src="${speakerData[i].img}" alt="image" class="w-100">
-            </div>
-            <div class="col-8 pe-0">
-              <h5 class="speaker-name mb-1">${speakerData[i].name}</h5>
-              <p class="fw-bold speaker-desc w-100 mb-1">${speakerData[i].about}</>
-              <div class="gray-line border-top border-2"></div>
-              <p class="fw-bold speaker-work mt-2 mb-0">${speakerData[i].achivements}</>
+const addSpeakerSec = () => {
+  for (let i = 0; i < speakerData.length; i += 1) {
+    div.innerHTML += `
+    <div class="col">
+            <div class="row p-4  speaker-img">
+              <div class="col-4 p-0">
+                <img src="${speakerData[i].img}" alt="image" class="w-100">
+              </div>
+              <div class="col-8 pe-0">
+                <h5 class="speaker-name mb-1">${speakerData[i].name}</h5>
+                <p class="fw-bold speaker-desc w-100 mb-1">${speakerData[i].about}</>
+                <div class="gray-line border-top border-2"></div>
+                <p class="fw-bold speaker-work mt-2 mb-0">${speakerData[i].achivements}</>
+              </div>
             </div>
           </div>
-        </div>
-  `;
+    `;
+  }
+};
+
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+if (mediaQuery.matches) {
+  speakerData.length = 2;
+  addSpeakerSec();
+} else {
+  speakerData.length = 6;
+  addSpeakerSec();
 }
+
+const moreBtn = document.querySelector('.more-container');
+moreBtn.addEventListener('click', () => {
+  const moreText = document.querySelector('.more-text');
+  const angleDown = document.querySelector('.fa-angle-down');
+  const angleUp = document.querySelector('.fa-angle-up');
+  if (moreText.innerHTML === 'MORE') {
+    moreText.innerHTML = 'LESS';
+    angleDown.style.display = 'none';
+    angleUp.style.display = 'block';
+  } else {
+    moreText.innerHTML = 'MORE';
+    angleDown.style.display = 'block';
+    angleUp.style.display = 'none';
+  }
+});
