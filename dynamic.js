@@ -68,34 +68,20 @@ const addSpeakerSec = (i) => {
   div.innerHTML += speakerHtml(i);
 };
 
-// const removeSpeakerSec = (i) => {
-//   div.innerHTML -= speakerHtml(i);
-// };
-
-const mediaQuery = window.matchMedia('(max-width: 768px)');
-if (mediaQuery.matches) {
-  speakerData.length = 6;
-  for (let i = 0; i < speakerData.length; i += 1) {
-    addSpeakerSec(i);
-  }
-} else {
-  speakerData.length = 6;
-  for (let i = 0; i < speakerData.length; i += 1) {
-    addSpeakerSec(i);
-  }
+for (let i = 0; i < speakerData.length; i += 1) {
+  addSpeakerSec(i);
 }
 
-const box = [...document.querySelectorAll('#speaker')];
-// console.log(box);
+const divElement = [...document.querySelectorAll('#speaker')];
 
 const moreSpeakerSec = () => {
   for (let i = 2; i < speakerData.length; i += 1) {
-    box[i].style.display = 'block';
+    divElement[i].style.display = 'block';
   }
 };
 const lessSpeakerSec = () => {
   for (let i = 2; i < speakerData.length; i += 1) {
-    box[i].style.display = 'none';
+    divElement[i].style.display = 'none';
   }
 };
 
