@@ -43,7 +43,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- 
+- Click this [link](https://k0ppai.github.io/first-capstone-project/) for live view.
 
 
 
@@ -175,7 +175,7 @@ If you like this project, don't forget to add this to your inspiration list.
 
 
 
-I would like to thank to everyone who inspired and helped me build  this project.
+I would like to give credit to the original author of the design "Cindy Shin" and thank to everyone who inspired and helped me build  this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
