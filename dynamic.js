@@ -49,7 +49,7 @@ for (let i = 0; i < speakerData.length; i += 1) {
   <div class="col">
           <div class="row p-4  speaker-img">
             <div class="col-4 p-0">
-              <img src="${speakerData[i].img}" class="w-100">
+              <img src="${speakerData[i].img}" alt="image" class="w-100">
             </div>
             <div class="col-8 pe-0">
               <h5 class="speaker-name mb-1">${speakerData[i].name}</h5>

@@ -150,23 +150,21 @@
 }
 
 .project-container {
-  background-color: rgb(253, 189, 0);
-  background-image: url(img/orange-bg-removebg.png);
-  background-size: 100%;
-
-  /* background-repeat: no-repeat; */
-  color: rgb(0, 0, 0);
+  background-color: rgb(39, 42, 49);
+  background-image: url(img/program-section-bg.png);
+  background-size: auto;
+  color: rgb(255, 255, 255);
 }
 
 .project-sec {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 7px;
   margin: 2px 5px;
 }
 
 .project-sec-name {
   font-size: 14px;
-  color: #fd3516;
+  color: #FF5438;
   font-weight: 600;
 }
 
@@ -338,11 +336,6 @@
     font-size: 0.9rem;
   }
 
-  .project-container {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .campaign-text {
     color: #ec4327;
     font-weight: 900;
@@ -374,7 +367,10 @@
   .speaker-img {
     background-position: 6px 6.5px;
   }
-
+  .project-sec-name{
+  font-weight: 900;
+  font-size: 16px;
+  }
   .text-light-gray {
     font-size: 40px;
   }

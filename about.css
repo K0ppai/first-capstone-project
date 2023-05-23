@@ -122,10 +122,10 @@
 }
 
 .intro-bg-layer {
-  background-image: url(img/about-01.png);
-  background-size: cover;
+  background-image: url(img/about-bg-mobile.png);
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 -25px;
+  background-position: 65vw 10vh;
 }
 
 #intro {
@@ -339,7 +339,9 @@
   }
 
   .intro-bg-layer {
-    background-position: -90px 140px;
+    background-image: url(img/desktop-about-bg.png);
+    background-size: 100%;
+    background-position: 3vw 40vh;
   }
 
   .white {
