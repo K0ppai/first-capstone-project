@@ -1,6 +1,5 @@
 @import url(./root.css);
 
-/* @media screen and (max-width: 768px) { */
 .header-bg {
   display: none;
 }
@@ -303,7 +302,6 @@
   display: none;
 }
 
-/* } */
 
 @media screen and (min-width: 768px) {
   .header-bg {
