@@ -1,5 +1,9 @@
 @import url(root.css);
 
+/* *{
+    outline: red 1px solid !important;
+  } */
+
 .header-bg {
   display: none;
 }
@@ -118,10 +122,10 @@
 }
 
 .intro-bg-layer {
-  background-image: url(img/about-bg-mobile.png);
-  background-size: 100%;
+  background-image: url(img/about-01.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 65vw 10vh;
+  background-position: 0 -25px;
 }
 
 #intro {
@@ -143,7 +147,7 @@
 }
 
 .intro-desc strong {
-  color: black;
+  color: var(--dark-orange);
   font-weight: 700;
   font-size: larger;
 }
@@ -335,9 +339,7 @@
   }
 
   .intro-bg-layer {
-    background-image: url(img/desktop-about-bg.png);
-    background-size: 100%;
-    background-position: 3vw 40vh;
+    background-position: -90px 140px;
   }
 
   .white {
@@ -359,6 +361,10 @@
 
   .nav-container {
     top: 24px;
+  }
+
+  .logo-desc {
+    color: var(--dark-orange);
   }
 
   .nav-links {
