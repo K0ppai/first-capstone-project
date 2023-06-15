@@ -1,5 +1,6 @@
 @import url(./root.css);
 
+/* @media screen and (max-width: 768px) { */
 .header-bg {
   display: none;
 }
@@ -149,21 +150,21 @@
 }
 
 .project-container {
-  background-color: rgb(39, 42, 49);
-  background-image: url(img/program-section-bg.png);
-  background-size: auto;
-  color: rgb(255, 255, 255);
+  background-color: rgb(253, 189, 0);
+  background-image: url(img/orange-bg-removebg.png);
+  background-size: 100%;
+  color: rgb(0, 0, 0);
 }
 
 .project-sec {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 7px;
   margin: 2px 5px;
 }
 
 .project-sec-name {
   font-size: 14px;
-  color: #ff5438;
+  color: #fd3516;
   font-weight: 600;
 }
 
@@ -174,9 +175,8 @@
 
 .join-bg {
   border-radius: 7px;
-  background-color: #ff4f38;
+  background-color: rgba(255, 255, 255, 0.9);
 }
-
 .more-container {
   border: solid 1px rgb(122, 122, 122, 0.4);
   border-radius: 5px;
@@ -196,7 +196,6 @@
   font-size: 14px;
   font-weight: 700;
 }
-
 .speaker-desc {
   font-size: 10px;
   line-height: 15px;
@@ -217,14 +216,12 @@
   background-position: 9px 10px;
   background-repeat: no-repeat;
 }
-
 #speaker:nth-child(3),
 #speaker:nth-child(4),
 #speaker:nth-child(5),
 #speaker:nth-child(6) {
   display: none;
 }
-
 .gray-line {
   width: 12%;
 }
@@ -302,6 +299,7 @@
   display: none;
 }
 
+/* } */
 
 @media screen and (min-width: 768px) {
   .header-bg {
@@ -361,6 +359,11 @@
     font-size: 0.9rem;
   }
 
+  .project-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .campaign-text {
     color: #ec4327;
     font-weight: 900;
@@ -397,7 +400,6 @@
     font-weight: 900;
     font-size: 16px;
   }
-
   .text-light-gray {
     font-size: 40px;
   }
@@ -414,7 +416,6 @@
   .program-icon {
     width: 30%;
   }
-
   #more {
     display: none;
   }
@@ -446,7 +447,6 @@
     font-size: 13px;
     line-height: 15px;
   }
-
   #speaker:nth-child(3),
   #speaker:nth-child(4),
   #speaker:nth-child(5),
